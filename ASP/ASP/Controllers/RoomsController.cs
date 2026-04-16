@@ -51,7 +51,7 @@ public class RoomsController : ControllerBase
         Storage.rooms.Add(room);
         return Ok(room);
     }
-    [HttpPut"{id}"]
+    [HttpPut("{id}")]
 
     public IActionResult UpdateRoom(int id, [FromBody] Room room)
     {
