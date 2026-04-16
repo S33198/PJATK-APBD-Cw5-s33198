@@ -38,6 +38,11 @@ public class ReservationsController : ControllerBase
     public IActionResult CreateReservation([FromBody] Reservations reservation)
     {
         reservation.Id = Storage.reservations.Count + 1;
+        var room = Storage.rooms.FirstOrDefault(x => x.Id == reservation.RoomId);
+        if (room == null)
+            return NotFound(new {message = " Room not found "});
+        if(!room.IsActive)
+            return NotFound(new {message = " Room is not active"});
         Storage.reservations.Add(reservation);
         return Ok(reservation);
     }

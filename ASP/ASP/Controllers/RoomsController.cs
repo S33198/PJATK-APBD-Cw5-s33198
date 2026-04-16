@@ -71,6 +71,9 @@ public class RoomsController : ControllerBase
     public IActionResult DeleteRoom(int id)
     {
         var room = Storage.rooms.FirstOrDefault(r => r.Id == id);
+        var reservation = Storage.reservations.FirstOrDefault(r => r.RoomId == id);
+        if (reservation != null)
+            return NotFound(new {message = " Room has reservation "});
         if(room == null)
             return NotFound();
         Storage.rooms.Remove(room);
