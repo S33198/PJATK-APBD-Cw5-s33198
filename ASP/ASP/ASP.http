@@ -3,4 +3,111 @@
 GET {{ASP_HostAddress}}/weatherforecast/
 Accept: application/json
 
-###
+### Pobiera wszystkie pokoje
+GET http://localhost:5068/api/rooms
+Accept: application/json
+
+### Pobiera sale nr2
+GET http://localhost:5068/api/rooms/2
+Accept: application/json
+
+### Pobiera sale nr3839 (nie istnieje)
+GET http://localhost:5068/api/rooms/3839
+Accept: application/json
+
+### Pobiera sale z budyku B
+GET http://localhost:5068/api/rooms/building/B
+Accept: application/json
+
+### Pobiera sale z budyku Z (nie istnieje)
+GET http://localhost:5068/api/rooms/building/Z
+Accept: application/json
+
+### Filtruje sale z pojemnoscia wieksza niz 20
+GET http://localhost:5068/api/rooms/filter?mincapacity=20
+Accept: application/json
+
+### Filtruje sale z pojemnoscia wieksza niz 2000
+GET http://localhost:5068/api/rooms/filter?mincapacity=2000
+Accept: application/json
+
+### Tworzy nowy pokoj
+POST http://localhost:5068/api/rooms
+Content-Type: application/json
+
+{
+    "name": "Sala 321",
+    "buildingCode": "A-1",
+    "floor": 3,
+    "capacity": 25,
+    "hasProjcetor": true,
+    "isActive": true
+}
+
+### Tworzy nowy pokoj bez pelnych danych
+POST http://localhost:5068/api/rooms
+Content-Type: application/json
+
+{
+  "name": "Sala 321",
+  "buildingCode": "A-1",
+  "floor": 3
+}
+### Aktualizuje pokoj
+PUT http://localhost:5068/api/rooms/2
+Content-Type: application/json
+
+{
+  "name": "Sala B2",
+  "buildingCode": "B",
+  "floor": 1,
+  "capacity": 22,
+  "hasProjector": true,
+  "isActive":true
+}
+
+### Aktualizuje pokoj bez pelnych danych
+PUT http://localhost:5068/api/rooms/2
+Content-Type: application/json
+
+{
+  "name": "Sala B2",
+  "buildingCode": "B"
+}
+
+###Dodaje rezerwacje
+POST http://localhost:5068/api/reservations
+Content-Type: application/json
+
+{
+  "roomId": 1,
+  "organizerName": "PJATK",
+  "topic": "Omowienie Czegos",
+  "date": "2026-03-03",
+  "startTime": "15:00:00",
+  "endTime": "11:00:00",
+  "status": "planned"
+}
+
+###Dodaje rezerwacje
+POST http://localhost:5068/api/reservations
+Content-Type: application/json
+
+{
+  "roomId": 1,
+  "organizerName": "PJATK",
+  "topic": "Omowienie Czegos",
+  "date": "2026-03-03",
+  "startTime": "11:00:00",
+  "endTime": "14:00:00",
+  "status": "planned"
+  }
+
+###Usuwa rezerwacje 1
+DELETE http://localhost:5068/api/reservations/1
+
+###Usuwa rezerwacje 132
+DELETE http://localhost:5068/api/reservations/1
+
+
+

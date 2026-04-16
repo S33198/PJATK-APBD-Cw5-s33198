@@ -27,3 +27,10 @@ F:\Onedrive\OneDrive - Vertikal\Dokumenty\Moje\Studia PJATK\4 SEM\APBD\Repozytor
 F:\Onedrive\OneDrive - Vertikal\Dokumenty\Moje\Studia PJATK\4 SEM\APBD\Repozytoria\PJATK-APBD-Cw5-s33198\ASP\ASP\obj\Debug\net10.0\ASP.pdb
 F:\Onedrive\OneDrive - Vertikal\Dokumenty\Moje\Studia PJATK\4 SEM\APBD\Repozytoria\PJATK-APBD-Cw5-s33198\ASP\ASP\obj\Debug\net10.0\ASP.genruntimeconfig.cache
 F:\Onedrive\OneDrive - Vertikal\Dokumenty\Moje\Studia PJATK\4 SEM\APBD\Repozytoria\PJATK-APBD-Cw5-s33198\ASP\ASP\obj\Debug\net10.0\ref\ASP.dll
+F:\Onedrive\OneDrive - Vertikal\Dokumenty\Moje\Studia PJATK\4 SEM\APBD\Repozytoria\PJATK-APBD-Cw5-s33198\ASP\ASP\bin\Debug\net10.0\Microsoft.OpenApi.dll
+F:\Onedrive\OneDrive - Vertikal\Dokumenty\Moje\Studia PJATK\4 SEM\APBD\Repozytoria\PJATK-APBD-Cw5-s33198\ASP\ASP\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\Onedrive\OneDrive - Vertikal\Dokumenty\Moje\Studia PJATK\4 SEM\APBD\Repozytoria\PJATK-APBD-Cw5-s33198\ASP\ASP\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\Onedrive\OneDrive - Vertikal\Dokumenty\Moje\Studia PJATK\4 SEM\APBD\Repozytoria\PJATK-APBD-Cw5-s33198\ASP\ASP\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\Onedrive\OneDrive - Vertikal\Dokumenty\Moje\Studia PJATK\4 SEM\APBD\Repozytoria\PJATK-APBD-Cw5-s33198\ASP\ASP\obj\Debug\net10.0\ASP.csproj.AssemblyReference.cache
+F:\Onedrive\OneDrive - Vertikal\Dokumenty\Moje\Studia PJATK\4 SEM\APBD\Repozytoria\PJATK-APBD-Cw5-s33198\ASP\ASP\obj\Debug\net10.0\ASP.MvcApplicationPartsAssemblyInfo.cs
+F:\Onedrive\OneDrive - Vertikal\Dokumenty\Moje\Studia PJATK\4 SEM\APBD\Repozytoria\PJATK-APBD-Cw5-s33198\ASP\ASP\obj\Debug\net10.0\ASP.csproj.Up2Date

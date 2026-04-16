@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\s33198\\Documents\\GitHub\\PJATK-APBD-Cw5-s33198\\ASP\\ASP\\ASP.csproj": {}
+    "F:\\Onedrive\\OneDrive - Vertikal\\Dokumenty\\Moje\\Studia PJATK\\4 SEM\\APBD\\Repozytoria\\PJATK-APBD-Cw5-s33198\\ASP\\ASP\\ASP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\s33198\\Documents\\GitHub\\PJATK-APBD-Cw5-s33198\\ASP\\ASP\\ASP.csproj": {
+    "F:\\Onedrive\\OneDrive - Vertikal\\Dokumenty\\Moje\\Studia PJATK\\4 SEM\\APBD\\Repozytoria\\PJATK-APBD-Cw5-s33198\\ASP\\ASP\\ASP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\s33198\\Documents\\GitHub\\PJATK-APBD-Cw5-s33198\\ASP\\ASP\\ASP.csproj",
+        "projectUniqueName": "F:\\Onedrive\\OneDrive - Vertikal\\Dokumenty\\Moje\\Studia PJATK\\4 SEM\\APBD\\Repozytoria\\PJATK-APBD-Cw5-s33198\\ASP\\ASP\\ASP.csproj",
         "projectName": "ASP",
-        "projectPath": "C:\\Users\\s33198\\Documents\\GitHub\\PJATK-APBD-Cw5-s33198\\ASP\\ASP\\ASP.csproj",
-        "packagesPath": "C:\\Users\\s33198\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\s33198\\Documents\\GitHub\\PJATK-APBD-Cw5-s33198\\ASP\\ASP\\obj\\",
+        "projectPath": "F:\\Onedrive\\OneDrive - Vertikal\\Dokumenty\\Moje\\Studia PJATK\\4 SEM\\APBD\\Repozytoria\\PJATK-APBD-Cw5-s33198\\ASP\\ASP\\ASP.csproj",
+        "packagesPath": "C:\\Users\\hbini\\.nuget\\packages\\",
+        "outputPath": "F:\\Onedrive\\OneDrive - Vertikal\\Dokumenty\\Moje\\Studia PJATK\\4 SEM\\APBD\\Repozytoria\\PJATK-APBD-Cw5-s33198\\ASP\\ASP\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\s33198\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\hbini\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -49,6 +43,12 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[10.1.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -68,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\s33198\\.dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Users\\hbini\\.dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

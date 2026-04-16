@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "MadKJknnY5I=",
+  "dgSpecHash": "hKa+uMsifPA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\s33198\\Documents\\GitHub\\PJATK-APBD-Cw5-s33198\\ASP\\ASP\\ASP.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "F:\\Onedrive\\OneDrive - Vertikal\\Dokumenty\\Moje\\Studia PJATK\\4 SEM\\APBD\\Repozytoria\\PJATK-APBD-Cw5-s33198\\ASP\\ASP\\ASP.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hbini\\.nuget\\packages\\microsoft.extensions.apidescription.server\\10.0.0\\microsoft.extensions.apidescription.server.10.0.0.nupkg.sha512",
+    "C:\\Users\\hbini\\.nuget\\packages\\microsoft.openapi\\2.4.1\\microsoft.openapi.2.4.1.nupkg.sha512",
+    "C:\\Users\\hbini\\.nuget\\packages\\swashbuckle.aspnetcore\\10.1.7\\swashbuckle.aspnetcore.10.1.7.nupkg.sha512",
+    "C:\\Users\\hbini\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\10.1.7\\swashbuckle.aspnetcore.swagger.10.1.7.nupkg.sha512",
+    "C:\\Users\\hbini\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\10.1.7\\swashbuckle.aspnetcore.swaggergen.10.1.7.nupkg.sha512",
+    "C:\\Users\\hbini\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\10.1.7\\swashbuckle.aspnetcore.swaggerui.10.1.7.nupkg.sha512"
+  ],
   "logs": []
 }

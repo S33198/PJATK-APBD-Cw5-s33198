@@ -22,7 +22,7 @@ public class Storage
 
 reservations = new List<Reservations>
 {
-    new Reservations { Id = 1, RoomId = 1, OrganizerName = 101, Topic = "Spotkanie zespołu", Date = DateTime.Today, StartTime = DateTime.Today.AddHours(9), EndTime = DateTime.Today.AddHours(10), Status = Status.Planned },
+    new Reservations { Id = 1, RoomId = 1, OrganizerName = 101, Topic = "Spotkanie zespołu", Date = DateTime.Today, StartTime = new DateTime(2026, 1, 1, 10, 0, 0), EndTime = new DateTime(2026, 1, 1, 15, 0, 0), Status = Status.Planned },
     new Reservations { Id = 2, RoomId = 2, OrganizerName = 102, Topic = "Prezentacja projektu", Date = DateTime.Today, StartTime = DateTime.Today.AddHours(10), EndTime = DateTime.Today.AddHours(11), Status = Status.Confirmed },
     new Reservations { Id = 3, RoomId = 3, OrganizerName = 103, Topic = "Szkolenie", Date = DateTime.Today, StartTime = DateTime.Today.AddHours(11), EndTime = DateTime.Today.AddHours(13), Status = Status.Planned },
     new Reservations { Id = 4, RoomId = 4, OrganizerName = 104, Topic = "Warsztaty", Date = DateTime.Today, StartTime = DateTime.Today.AddHours(9), EndTime = DateTime.Today.AddHours(12), Status = Status.Cancelled },
